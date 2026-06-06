@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Tallita Oliveira</title>
+  <!-- Ligação com o ficheiro de estilos -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== MENU DE NAVEGAÇÃO FIXO NO TOPO ========== -->
+  <nav id="menu">
+    <div class="nav-logo">Tallita Oliveira</div>
+
+    <!-- Botão hamburguer: só aparece em ecrãs pequenos (mobile) -->
+    <button id="hamburguer">&#9776;</button>
+
+    <!-- Links de navegação por âncoras: levam para cada secção sem recarregar a página -->
+    <ul id="nav-links">
+      <li><a href="#sobre">Sobre mim</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <!-- Botão para alternar entre tema claro e escuro -->
+    <button id="tema-btn">🌙</button>
+  </nav>
+
+  <!-- ========== SECÇÃO 1: SOBRE MIM ========== -->
+  <section id="sobre">
+    <div class="container">
+      <div class="sobre-content">
+
+        <div class="sobre-texto">
+          <h1>Olá, me chamo <span class="destaque">Tallita Oliveira</span> </h1>
+          <p>
+            Tenho 31 anos e estou a fazer uma transição de carreira da área da saúde — onde trabalhei como técnica de enfermagem — para a tecnologia. Sempre gostei de computadores e jogos, e hoje estou a transformar essa paixão numa carreira.
+          </p>
+          <p>
+            Adoro a flexibilidade que a área de tecnologia oferece e estou comprometida em crescer e aprender cada dia mais. Nos tempos livres, gosto de assistir séries (atualmente a ver <strong>From</strong>!), animes (Naruto é amor ❤️) e jogar — CS:GO, Paladins e PUBG são os meus favoritos.
+          </p>
+          <!-- Botão que leva para a secção de contato -->
+          <a href="#contato" class="btn-principal">Fala comigo</a>
+        </div>
+
+        <!-- Foto de perfil em círculo -->
+        <div class="foto-container">
+          <img src="foto.jpg" alt="Foto de Tallita Oliveira" class="foto-perfil" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECÇÃO 2: FORMAÇÃO ========== -->
+  <section id="formacao">
+    <div class="container">
+      <h2 class="titulo-secao">Formação</h2>
+      <div class="linha-titulo"></div>
+
+      <!-- Cartão: Ensino Superior -->
+      <div class="card">
+        <h3>🎓 Ensino Superior</h3>
+        <p><strong>Curso:</strong> Engenharia de Software</p>
+        <p><strong>Instituição:</strong> UNINTER – Centro Universitário Internacional</p>
+        <p><strong>Período:</strong> 2025 – Em andamento (1º ano, a entrar no 2º ano)</p>
+      </div>
+
+      <!-- Cartão: Cursos Complementares -->
+      <div class="card">
+        <h3>💻 Cursos Complementares</h3>
+        <ul>
+          <li>Oracle Next One (ONE) – HTML, CSS, JavaScript e Java (Back-end) – Alura</li>
+          <li>Informática Básica – Certificado concluído</li>
+          <li>Certificados diversos – Alura</li>
+        </ul>
+      </div>
+
+      <!-- Cartão: Idiomas -->
+      <div class="card">
+        <h3>🌍 Idiomas</h3>
+        <ul>
+          <li>Português – Nativo</li>
+          <li>Inglês – Em aprendizagem</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SECÇÃO 3: PORTFÓLIO ========== -->
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="titulo-secao">Portfólio</h2>
+      <div class="linha-titulo"></div>
+      <p class="subtitulo">Projetos desenvolvidos durante os meus estudos:</p>
+
+      <!-- Grade de projetos usando CSS Grid -->
+      <div class="projetos-grid">
+
+        <!-- Projeto 1: Amigo Secreto -->
+        <div class="projeto-card">
+          <h3>🎁 Amigo Secreto</h3>
+          <p>Aplicação web para sorteio de amigo secreto. Desenvolvida com HTML, CSS e JavaScript durante o programa Oracle Next One da Alura.</p>
+          <a href="https://github.com/TallitaOliveira/AmigoSecreto" target="_blank" class="btn-projeto">Ver no GitHub</a>
+        </div>
+
+        <!-- Projeto 2: Jogo Número Secreto -->
+        <div class="projeto-card">
+          <h3>🔢 Jogo do Número Secreto</h3>
+          <p>Jogo interativo onde o utilizador tenta adivinhar um número secreto gerado aleatoriamente. Desenvolvido com HTML, CSS e JavaScript.</p>
+          <a href="https://github.com/TallitaOliveira/Jogo-do-numero-secreto" target="_blank" class="btn-projeto">Ver no GitHub</a>
+        </div>
+
+        <!-- Projeto 3: Este Portfólio -->
+        <div class="projeto-card">
+          <h3>🌐 Portfólio Pessoal</h3>
+          <p>Este portfólio! Desenvolvido com HTML5, CSS3 e JavaScript puro como atividade prática da disciplina de Fundamentos da Programação Web.</p>
+          <a href="https://github.com/TallitaOliveira" target="_blank" class="btn-projeto">Ver no GitHub</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECÇÃO 4: CONTATO ========== -->
+  <section id="contato">
+    <div class="container">
+      <h2 class="titulo-secao">Contato</h2>
+      <div class="linha-titulo"></div>
+      <p class="subtitulo">Deixa uma mensagem, responderei em breve! 💜</p>
+
+      <!-- Links para redes sociais -->
+      <div class="redes-sociais">
+        <a href="https://linkedin.com/in/tallitaoliveirasantos" target="_blank" class="btn-rede">💼 LinkedIn</a>
+        <a href="https://github.com/TallitaOliveira" target="_blank" class="btn-rede">🐙 GitHub</a>
+      </div>
+
+      <!-- Formulário: validação feita pelo JavaScript -->
+      <div class="formulario">
+
+        <!-- Campo Nome -->
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="O teu nome completo" />
+
+        <!-- Campo Email -->
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="exemplo@email.com" />
+
+        <!-- Campo Mensagem -->
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" rows="5" placeholder="Escreve a tua mensagem aqui..."></textarea>
+
+        <!-- Área onde o JavaScript mostra mensagens de erro ou sucesso -->
+        <p id="feedback" class="feedback"></p>
+
+        <!-- Botão chama a função enviarFormulario() no script.js -->
+        <button onclick="enviarFormulario()" class="btn-principal">Enviar mensagem</button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer>
+    <p>De enfermagem para o código 💜 · 2026</p>
+  </footer>
+
+  <!-- Script sempre no final do body, depois do HTML já ter carregado -->
+  <script src="script.js"></script>
+
+</body>
+</html>
